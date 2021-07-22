@@ -1,0 +1,32 @@
+/*Parceiros*/
+
+#parceiros{
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+    div{
+        width: 30%;
+        img{
+            width: 100%
+        };
+    }
+}
+
+@media screen and (max-width: 980px){
+    #parceiros{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div{
+            width: 350px;
+            margin-left: 5px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

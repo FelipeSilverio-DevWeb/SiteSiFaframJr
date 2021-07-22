@@ -1,0 +1,72 @@
+/*MOBILE*/
+@media screen and (max-width: 980px) {
+  .menu_mob {
+    display: block;
+    z-index: 99;
+  }
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: #222;
+    padding: 100px 0px;
+    width: 100%;
+    z-index: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+  .menu li {
+    margin-bottom: 10px;
+  }
+  .menu.active {
+    right: -1000;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #conteudo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .card-conteudo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background: -webkit-gradient(linear, left bottom, left top, from(#96c7fc), to(white)) !important;
+    background: linear-gradient(to top, #96c7fc, white) !important;
+  }
+  .conteudo-image {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+  .conteudo-image img {
+    margin: 0 auto;
+  }
+  .conteudo-header {
+    width: 100%;
+    width: 0 auto;
+  }
+  .conteudo-header h3 {
+    font-size: 1.2rem !important;
+    font-weight: 450 !important;
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

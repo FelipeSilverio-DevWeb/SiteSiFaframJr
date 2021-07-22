@@ -1,0 +1,71 @@
+/*HELLO*/
+#hello {
+  margin-top: 70px;
+  z-index: -1;
+}
+
+#hello h1 {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 2.5em;
+  font-weight: 520;
+  text-transform: uppercase;
+  position: relative;
+  color: transparent;
+  -webkit-animation: text_reveal .4s ease forwards;
+          animation: text_reveal .4s ease forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#hello :nth-child(1) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+#hello :nth-child(2) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#hello :nth-child(3) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+@-webkit-keyframes image-grey {
+  from {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+  to {
+    -webkit-filter: initial;
+            filter: initial;
+  }
+}
+
+@keyframes image-grey {
+  from {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+  to {
+    -webkit-filter: initial;
+            filter: initial;
+  }
+}
+
+/*EFEITO HELLO*/
+@-webkit-keyframes text_reveal {
+  100% {
+    color: white;
+  }
+}
+@keyframes text_reveal {
+  100% {
+    color: white;
+  }
+}
+/*# sourceMappingURL=wel.css.map */

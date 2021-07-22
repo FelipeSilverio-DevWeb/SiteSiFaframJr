@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-image: radial-gradient(#272727, #00093d);
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: normal;
+  color: #ffffff;
+  margin: 40px 0 40px 0;
+}
+
+h2::after {
+  content: '';
+  width: 100px;
+  height: 5px;
+  background-color: #ffffffd7;
+  display: block;
+  margin: 10px auto;
+}
+
+#imagem1 {
+  width: 100%;
+  background: url(../img/cyber-3400789_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#imagem1 div {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+#imagem1 div img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#imagem2 {
+  height: 60vh;
+  width: 100%;
+  background: url(../img/programming-1873854_1280.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 50%;
+}
+/*# sourceMappingURL=global.css.map */

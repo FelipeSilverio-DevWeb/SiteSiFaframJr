@@ -1,0 +1,120 @@
+header {
+  width: 100%;
+  background: url(./img/teclado.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  padding: 10px 20px;
+  top: 0;
+}
+
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-transform: uppercase;
+  height: 150px;
+}
+
+#container ul {
+  color: #888888;
+}
+
+#logo img {
+  width: 200px;
+}
+
+.menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu a {
+  color: #777777;
+  padding: 10px 20px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.menu a:hover {
+  color: white;
+}
+
+/*historia da faculdade*/
+#historia-empresa {
+  width: 100%;
+  background-color: white;
+  border-radius: 0 0 70px 70px;
+  padding: 50px;
+  -webkit-box-shadow: 0 2px 15px 5px black;
+          box-shadow: 0 2px 15px 5px black;
+}
+
+#historia-empresa div {
+  width: 70%;
+  text-align: justify;
+  margin: 0 auto;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+#historia-cards {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#historia-cards div {
+  width: 30%;
+  background-color: white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-shadow: 0 0 5px 0.1px #3d3d3d;
+          box-shadow: 0 0 5px 0.1px #3d3d3d;
+  margin-bottom: 0;
+  padding: 8px;
+  text-align: center;
+  font-weight: normal;
+}
+
+#historia-cards div h3 {
+  text-transform: uppercase;
+}
+
+#historia-cards div p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 920px) {
+  #historia-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #historia-cards div {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=head.css.map */

@@ -1,0 +1,156 @@
+main {
+  max-width: 90%;
+  background: transparent;
+}
+
+#cards {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card {
+  margin: 5px;
+  max-width: 300px;
+  background-color: #f0f0f0;
+  margin-bottom: 50px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 10px 0.1px black;
+          box-shadow: 0 0 10px 0.1px black;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 0 8px 0.1px #e9e9e9;
+          box-shadow: 0 0 8px 0.1px #e9e9e9;
+}
+
+.card-image img {
+  -webkit-filter: initial;
+          filter: initial;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-image img:hover {
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
+}
+
+.card-header {
+  text-align: justify;
+  padding: 5px;
+}
+
+.card-header p {
+  font-weight: normal;
+}
+
+.card-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 5px;
+}
+
+.card-icons img {
+  width: 35px;
+}
+
+/*CARD CONTEUDO*/
+#conteudo {
+  max-width: 1100px;
+  margin: 0px auto;
+  background-color: var();
+  overflow: hidden;
+}
+
+#conteudo .card-conteudo {
+  width: 60%;
+  border-radius: 10px;
+  background-color: #ebe9e9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px;
+  padding: 5px;
+  -webkit-box-shadow: 0 0 10px 0.1px black;
+          box-shadow: 0 0 10px 0.1px black;
+}
+
+#conteudo .card-conteudo h3 {
+  color: #013e99;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+#conteudo .card-conteudo:nth-child(1) {
+  margin-top: 50px;
+}
+
+.conteudo-image {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 60px;
+}
+
+.conteudo-image img {
+  width: 200px;
+}
+
+.conteudo-header {
+  width: 50%;
+  margin: auto;
+}
+
+.conteudo-header p {
+  text-align: justify;
+  color: black;
+}
+
+.L {
+  float: left;
+}
+
+.R {
+  float: right;
+}
+
+#title-conteudo {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 2rem;
+  margin: 1em;
+  color: #ffffff;
+}
+
+#title-conteudo::after {
+  content: '';
+  width: 200px;
+  height: 5px;
+  background-color: #ffffff;
+  display: block;
+  margin: 10px auto;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,42 @@
+/*Parceiros*/
+#parceiros {
+  margin: 0 auto;
+  max-width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+#parceiros div {
+  width: 30%;
+}
+
+#parceiros div img {
+  width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+  #parceiros {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #parceiros div {
+    width: 350px;
+    margin-left: 5px;
+  }
+  #parceiros div img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=partners.css.map */
