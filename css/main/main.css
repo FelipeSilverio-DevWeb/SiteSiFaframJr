@@ -18,7 +18,7 @@ main {
 
 .card {
   margin: 5px;
-  max-width: 300px;
+  max-width: 250px;
   background-color: #f0f0f0;
   margin-bottom: 50px;
   -webkit-transition: 0.4s;

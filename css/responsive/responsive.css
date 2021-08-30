@@ -25,9 +25,6 @@
   .menu li {
     margin-bottom: 10px;
   }
-  .menu.active {
-    right: -1000;
-  }
 }
 
 @media screen and (max-width: 700px) {
@@ -48,8 +45,8 @@
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    background: -webkit-gradient(linear, left bottom, left top, from(#96c7fc), to(white)) !important;
-    background: linear-gradient(to top, #96c7fc, white) !important;
+    background: -webkit-gradient(linear, left bottom, left top, from(#96c7fc), to(white));
+    background: linear-gradient(to top, #96c7fc, white);
   }
   .conteudo-image {
     width: 100%;

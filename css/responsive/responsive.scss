@@ -23,9 +23,6 @@
             margin-bottom: 10px;
         }
     }
-    .menu.active{
-        right: -1000;
-    }
 
     
 }
@@ -41,7 +38,7 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        background: linear-gradient(to top, rgb(150, 199, 252), rgb(255, 255, 255), ) !important;
+        background: linear-gradient(to top, rgb(150, 199, 252), rgb(255, 255, 255), );
     }
 
     .conteudo-image{
